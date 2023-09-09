@@ -1,19 +1,27 @@
 "use strict";
-// // enum Color {Red, Green, Blue};//starts with 0
-// // var c: Color = Color.Green;
-function sum(a, b) {
-    return a + b;
-}
-// function sum(a:string|number,b:string|number):string|number{
-// if(typeof a=== "number" && typeof b=== "number"){
-// return a+b
-// }else {
-//     return `${a},${b}`
-// }
-// }
-let c = sum(1, 6);
-console.log(c);
-let d = sum('arsal', 'sultan');
-console.log(d);
-let b = 2;
-let a = 2;
+// let C=mycar.lastIndexOf("etron") 
+// console.log(C);
+// let bikes :string[][]=[]
+// bikes.push(mycar.concat(cars,myFavCars))
+// ;
+// console.log(`these are the combination of cars :: ${mycar.concat(cars)}`);
+// myFavCars.pop()
+// console.log(myFavCars);
+// console.log(bikes)
+// console.log(`this is the reverse of cars :::${cars.reverse()}`);
+let mycar = ["bmw", "hoda", "bmw"];
+let cars = ["sonata", "ferrari", "bmw", "bmw", "hoda", "bmw",];
+let myFavCars = ["mercides", "etron"];
+let x = cars.slice().reverse();
+// console.log(cars);
+// console.log(x);
+// console.log(mycar.shift());
+// console.log(cars.pop());
+// console.log(cars);
+// console.log(cars.pop());
+// console.log(cars);
+myFavCars.unshift(`mehran`);
+console.log(myFavCars);
+let bottle = ["coke", "fanta", "string", "ajsdhflkuh"];
+console.log(bottle.slice(0, 2));
+console.log(bottle);
